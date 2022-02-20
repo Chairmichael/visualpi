@@ -1,4 +1,5 @@
 #vis.py
+# draws some dots with pygame
 
 import pygame
 from pygame.locals import *
@@ -8,7 +9,7 @@ def main():
 	SIZE = 300
 	pygame.init()
 	BLACK = pygame.Color([0,0,0])
-	# colors = [pygame.Color(hsv2rgb(x*36,0.8,0.8)) for x in range(10)]
+
 	colors = []
 	for x in range(10):
 		r,g,b = [round(i*255) for i in colorsys.hsv_to_rgb(x/10,0.8,0.8)]
