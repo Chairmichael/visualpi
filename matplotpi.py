@@ -1,6 +1,6 @@
 # matvis.py
 # Uses matplot to draw stuff from the digits of PI
-# this took way to long 😩 (bc first time using matplot)
+# this took way to long 😩 (first time using matplot)
 
 import matplotlib.pyplot as plt
 import matplotlib.colors as cl
